@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id='modista_action' model='ir.actions.act_window'>
+        <field name="name">Modista</field>
+        <field name="res_model">modista</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Modista" id="modista_menu" parent="base_menu" action="modista_action"/>
+
+    <!-- Form View -->
+    <record id="modista_form" model="ir.ui.view">
+        <field name="name">Formulario de modistas</field>
+        <field name="model">modista</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <group>
+                        <field name="name"/>
+                        <field name="telefono"/>
+                    </group>
+                    <group>
+                        <field name="direccion"/>
+                        <field name="category_id"/>
+                    </group>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!-- Tree(list) View -->
+    <record id="modista_tree" model="ir.ui.view">
+        <field name="name">Lista de modistas</field>
+        <field name="model">modista</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="category_id"/>
+                <field name="telefono"/>
+                <field name="direccion"/>
+            </tree>
+        </field>
+    </record>
+
+</odoo>

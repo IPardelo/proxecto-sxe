@@ -1,3 +1,6 @@
 # -*- coding: utf-8 -*-
-from . import library_book
-from . import library_book_categ
+from . import roupa
+from . import categorias
+from . import alumnos
+from . import cursos
+from . import modista

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id='roupa_action' model='ir.actions.act_window'>
+        <field name="name">Roupa</field>
+        <field name="res_model">roupa</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Xeitosos de Trazo" id="base_menu" />
+    <menuitem name="Roupa" id="roupa_menu" parent="base_menu" action="roupa_action"/>
+
+    <!-- Form View -->
+    <record id="roupa_form" model="ir.ui.view">
+        <field name="name">Formulario de roupa</field>
+        <field name="model">roupa</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="prestada" string="Prestada" type="object"/>
+                    <button name="almacen"  string="Almacén" type="object"/>
+                    <button name="modista"  string="Modista" type="object"/>
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <group>
+                    <group>
+                        <field name="name"/>
+                        <field name="talla"/>
+                        <field name="category_id"/>
+                    </group>
+                    <group>
+                        <field name="alumno"/>
+                        <field name="date_updated"/>
+                        <field name="modista_id"/>
+                    </group>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!-- Tree(list) View -->
+    <record id="roupa_tree" model="ir.ui.view">
+        <field name="name">Lista de roupa</field>
+        <field name="model">roupa</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="talla"/>
+                <field name="date_updated"/>
+                <field name="alumno"/>
+            </tree>
+        </field>
+    </record>
+
+</odoo>
