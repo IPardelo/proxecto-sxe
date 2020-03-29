@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Xeitosos de Trazo",  # Module title
-    'summary': "Xestión de roupa no grupo de baile",  # Module subtitle phrase
+    'name': "Gestión de Asociación Cultural",  # Module title
+    'summary': "Gestor para controlar diferentes aspectos de una Asociación Cultural",  # Module subtitle phrase
     'description': """Long description""",  # You can also rst format
     'author': "Juan Ramón Bodelo Liste",
     'website': "#",

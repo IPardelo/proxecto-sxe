@@ -8,7 +8,7 @@
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem name="Xeitosos de Trazo" id="base_menu" />
+    <menuitem name="Gestión de Asociación Cultural" id="base_menu" />
     <menuitem name="Roupa" id="roupa_menu" parent="base_menu" action="roupa_action"/>
 
     <!-- Form View -->
