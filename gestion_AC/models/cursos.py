@@ -9,6 +9,12 @@ class Cursos(models.Model):
     description = fields.Text('Descripción')
     alumnos = fields.Many2many('alumnos', string='Alumnos')
     profesores_id = fields.Many2one('profesores', string='Profesor')
+    calcular = fields.Integer(
+        string='Alumnos totales',
+        compute='_calcular_total',
+        store=False,
+        compute_sudo='False',
+    )
 
     @api.model
     def get_alumnos(self, alumnos):
@@ -17,3 +23,8 @@ class Cursos(models.Model):
     @api.model
     def get_profesores(self, profesores):
         return profesores.mapped('profesores.name')
+
+    @api.multi
+    def _calcular_total(self):
+        total_alumnos = len(alumnos)
+        return total_alumnos
