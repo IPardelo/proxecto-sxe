@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <record id='roupa_action' model='ir.actions.act_window'>
-        <field name="name">Roupa</field>
-        <field name="res_model">roupa</field>
+    <record id='vestuario_action' model='ir.actions.act_window'>
+        <field name="name">Vestuario</field>
+        <field name="res_model">vestuario</field>
         <field name="view_type">form</field>
         <field name="view_mode">tree,form</field>
     </record>
 
     <menuitem name="Gestión de Asociación Cultural" id="base_menu" />
-    <menuitem name="Roupa" id="roupa_menu" parent="base_menu" action="roupa_action"/>
+    <menuitem name="Vestuario" id="vestuario_menu" parent="base_menu" action="vestuario_action"/>
 
     <!-- Form View -->
-    <record id="roupa_form" model="ir.ui.view">
-        <field name="name">Formulario de roupa</field>
-        <field name="model">roupa</field>
+    <record id="vestuario_form" model="ir.ui.view">
+        <field name="name">Formulario de vestuario</field>
+        <field name="model">vestuario</field>
         <field name="arch" type="xml">
             <form>
                 <header>
@@ -40,15 +40,12 @@
     </record>
 
     <!-- Tree(list) View -->
-    <record id="roupa_tree" model="ir.ui.view">
-        <field name="name">Lista de roupa</field>
-        <field name="model">roupa</field>
+    <record id="vestuario_tree" model="ir.ui.view">
+        <field name="name">Lista de vestuario</field>
+        <field name="model">vestuario</field>
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
-                <field name="talla"/>
-                <field name="date_updated"/>
-                <field name="alumno"/>
             </tree>
         </field>
     </record>

@@ -12,6 +12,10 @@ class Alumnos(models.Model):
 
     name = fields.Char('Alumno', required=True)
     dni = fields.Char('Talla', required=True)
-    curso = fields.Many2one('cursos', string='Curso', required=True)
+    cursos = fields.Many2many('cursos', string='Cursos', required=True)
     direccion = fields.Char('Dirección')
     telefono = fields.Char('Teléfono')
+
+    @api.model
+    def get_cursos(self, cursos):
+        return cursos.mapped('cursos.name')

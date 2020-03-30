@@ -11,10 +11,11 @@
     'data': [
         'security/groups.xml',
         'security/ir.model.access.csv',
-        'views/roupa.xml',
+        'views/vestuario.xml',
         'views/categorias.xml',
         'views/alumnos.xml',
         'views/cursos.xml',
-        'views/modista.xml'
+        'views/modista.xml',
+        'views/profesores.xml'
     ],
 }

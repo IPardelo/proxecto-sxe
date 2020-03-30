@@ -10,9 +10,9 @@ from odoo.tools.translate import _
 logger = logging.getLogger(__name__)
 
 
-class Roupa(models.Model):
-    _name = 'roupa'
-    _description = 'Roupa'
+class Vestuario(models.Model):
+    _name = 'vestuario'
+    _description = 'Vestuario'
     _defaults = {
         'date_updated': lambda *a: time.strftime('%Y-%m-%d %H:%M:%S')
     }
