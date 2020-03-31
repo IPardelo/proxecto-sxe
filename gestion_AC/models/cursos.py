@@ -26,5 +26,6 @@ class Cursos(models.Model):
 
     @api.multi
     def _calcular_total(self):
-        total_alumnos = len(self.alumnos)
-        return total_alumnos
+        for i in self:
+            total_alumnos = len(i.alumnos)
+            return total_alumnos
