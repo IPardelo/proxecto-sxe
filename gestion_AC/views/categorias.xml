@@ -8,7 +8,7 @@
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem name="Categorias" id="categorias_menu" parent="base_menu" action="categoria_action"/>
+
 
     <!-- Form View -->
     <record id="categorias_form" model="ir.ui.view">

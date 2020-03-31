@@ -8,8 +8,27 @@
         <field name="view_mode">tree,form</field>
     </record>
 
+    <record id='categoria_action' model='ir.actions.act_window'>
+        <field name="name">Categorias</field>
+        <field name="res_model">categorias</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id='modista_action' model='ir.actions.act_window'>
+        <field name="name">Modista</field>
+        <field name="res_model">modista</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
     <menuitem name="Gestión de Asociación Cultural" id="base_menu" />
-    <menuitem name="Vestuario" id="vestuario_menu" parent="base_menu" action="vestuario_action"/>
+    <menuitem name="Vestuario" id="vestuario_menu" parent="base_menu"/>
+    <menuitem name="Vestuario" id="vestuario_menuitem" parent="vestuario_menu" action="vestuario_action"/>
+    <menuitem name="Categorias" id="categoria_menu" parent="vestuario_menu" action="categoria_action"/>
+    <menuitem name="Modistas" id="modista_menu" parent="vestuario_menu" action="modista_action"/>
+
 
     <!-- Form View -->
     <record id="vestuario_form" model="ir.ui.view">
@@ -46,6 +65,8 @@
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
+                <field name="talla"/>
+                <field name="category_id"/>
             </tree>
         </field>
     </record>
