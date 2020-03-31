@@ -24,8 +24,7 @@ class Cursos(models.Model):
     def get_profesores(self, profesores):
         return profesores.mapped('profesores.name')
 
-    @api.multi
+    @api.model
     def _calcular_total(self):
-        for i in self:
-            total_alumnos = len(i.alumnos)
-            return total_alumnos
+        for record in self:
+            record.calcular = len(record.alumnos)
