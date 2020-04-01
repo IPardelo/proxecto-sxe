@@ -49,6 +49,14 @@ Además, en alumnos se guardan los datos personales, como el nombre, la direcci�
 ![Con titulo](img/vistaFormAlumnos.png "Vista de formulario de alumnos")
 
 
+- **Profesores**: el lugar donde se guarda la información de los profesores que imparten cursos en la escuela. Los datos recogidos son: el nombre, la dirección, el teléfono y una lista (visualizada con tags) de los cursos que imparte.
+
+![Con titulo](img/vistaCreacionProfesores.png "Vista de creación de profesores")
+![Con titulo](img/vistaListaProfesores.png "Vista de lista de profesores")
+![Con titulo](img/vistaFormProfesores.png "Vista de formulario de profesores")
+
+
+
 
 
 
