@@ -14,7 +14,7 @@ class Categorias(models.Model):
     description = fields.Text('Descripción')
     parent_id = fields.Many2one(
         'categorias',
-        string='Categoria pai',
+        string='Categoria padre',
         ondelete='restrict',
         index=True
     )

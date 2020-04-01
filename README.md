@@ -5,6 +5,7 @@
 
 El objectivo de este módulo es el manejo y control de diferentes aspectos de la gestión de una Asociación Cultural, como puede ser el vestuario propiedad de la asociación que se presta a los alumnos para las actuaciones, separado por categorías y en el que también podemos guardar datos de las modistas que nos confeccionan o arreglan las prendas.
 Además, este módulo tiene un apartado para el control de la escuela, en la que se incluyen los cursos que se hacen, los profesores y los alumnos que asisten.
+Los modelos del módulo estan separados en dos menús: menú vestuario y menú escuela.
 
 ### Funcionalidad y uso
 
@@ -16,6 +17,15 @@ Por cada prenda se guarda su talla, la categoría a la que pertenece, el último
 ![Con titulo](img/creacionVestuario.png "Vista de creación de vestuario")
 ![Con titulo](img/vistaListVestuario.png "Vista de lista de vestuario")
 ![Con titulo](img/vistaVestuario1.png "Vista de formulario de vestuario")
+
+- Categorías: el este modelo se guardan las distintas categorías en las que se divide el vestuario de la asociación. La característica más señalable es que una categoría puede tener una categoría padre y subcategorías.
+
+![Con título](img/vistaCreacionCategorias.img "Vista de creación de categorías")
+![Con título](img/vistaListaCategorías.img "Vista de lista de categorías")
+![Con título](img/vistaFormCategorias.img "Vista de formulario de categorías")
+
+
+
 
 
 
