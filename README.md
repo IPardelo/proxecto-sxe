@@ -1,3 +1,3 @@
-#MÓDULO DE GESTIÓN DE UNA ASOCIACIÓN CULTURAL#
+#MÓDULO DE GESTIÓN DE UNA ASOCIACIÓN CULTURAL
 
-##Objectivo del módulo##
+##Objectivo del módulo
