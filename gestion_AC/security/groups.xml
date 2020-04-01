@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="admin_modulo" model="res.groups">
-        <field name="name">Administrador do módulo</field>
+        <field name="name">Administrador de módulo</field>
         <field name="users" eval="[(4, ref('base.user_admin'))]"/>
     </record>
         <record id="admin_vestuario" model="res.groups">
-        <field name="name">Responsable da vestuario</field>
+        <field name="name">Responsable de vestuario</field>
     </record>
 </odoo>

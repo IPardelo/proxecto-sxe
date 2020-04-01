@@ -55,6 +55,16 @@ Además, en alumnos se guardan los datos personales, como el nombre, la direcci�
 ![Con titulo](img/vistaListaProfesores.png "Vista de lista de profesores")
 ![Con titulo](img/vistaFormProfesores.png "Vista de formulario de profesores")
 
+### Seguridad
+
+Existen dos grupos de acceso al módulo: **Responsable de vestuario** y **Administrador de módulo**. 
+El **Administrador del módulo** tiene acceso a todos los modelos del módulo, mientras que el **Responsable de vestuario** tiene acceso al menú de Vestuario.
+
+![Con titulo](img/vistaUsuario.png "Permisos del usuario responsable de vestuario")
+![Con titulo](img/vistaAccesoUsuario.png "Vista general de la accesibilidad del usuario Responsable de vestuario")
+
+
+
 
 
 
