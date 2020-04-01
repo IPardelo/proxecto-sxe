@@ -9,7 +9,9 @@ Los modelos del módulo estan separados en dos menús: menú vestuario y menú e
 
 ### Funcionalidad y uso
 
-En este apartado explicaremos la funcionalidad y uso de cada modelo del módulo:
+En este apartado explicaremos la funcionalidad y uso de cada modelo del módulo.
+
+Al desplegar el menú **Vestuario**, podemos acceder a los modelos **Vestuario**, **Categorías** y **Modistas**:
 
 - **Vestuario**: sirve para tener un registro de todas las prendas del vestuario. Además se pude señalar por acciones si una prenda está 'prestada', 'en almacén' o 'en la modista'. Estas acciones tienen restricciones: una prenda no puede pasar de 'prestada' a 'en la modista' sin pasar por el almacén, y viceversa.
 Por cada prenda se guarda su talla, la categoría a la que pertenece, el último usuario que prestó la prenda, la fecha y hora del último uso, y la modista que confeccionó esa prenda.
@@ -29,6 +31,15 @@ Por cada prenda se guarda su talla, la categoría a la que pertenece, el último
 ![Con titulo](img/vistaCreacionModista.png "Vista de creación de modistas")
 ![Con titulo](img/vistaListaModista.png "Vista de lista de modistas")
 ![Con titulo](img/vistaFormModista.png "Vista de formulario de modistas")
+
+
+Al desplegar el menú **Escuela** podemos acceder a los modelos **Cursos**, **Alumnos** y **Profesores**:
+
+- **Cursos**: el este modelo se guardan los cursos que se imparten en la escuela. En este modelo se guarda el nombre del curso, una descripción, el profesor que imparte el curso y una lista de alumnos que asisten a este curso. Además, tiene un campo calculado que sirve como contador, cuenta los alumnos que hai inscritos a este curso.
+
+![Con titulo](img/vistaCreacionCursos.png "Vista de creación de cursos")
+![Con titulo](img/vistaListaCursos.png "Vista de lista de cursos")
+![Con titulo](img/vistaFormCursos.png "Vista de formulario de cursos")
 
 
 

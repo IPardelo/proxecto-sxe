@@ -38,11 +38,13 @@
                         <field name="name"/>
                         <field name="description"/>
                         <field name="calcular"/>
-                        <field name="alumnos" widget="many2many_tags"/>
                     </group>
                     <group>
                         <field name="profesores_id"/>
                     </group>
+                </group>
+                <group>
+                    <field name="alumnos" widget="many2many_list"/>
                 </group>
             </form>
         </field>
