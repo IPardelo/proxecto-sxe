@@ -24,6 +24,12 @@ Por cada prenda se guarda su talla, la categoría a la que pertenece, el último
 ![Con título](img/vistaListaCategorias.png "Vista de lista de categorías")
 ![Con título](img/vistaFormCateogorias.png "Vista de formulario de categorías")
 
+- **Modistas**: aquí se pueden guardar las modistas que realizan trabajos para la asociación. Para cada modista se guarda su nombre, su teléfono, su dirección y su especialización. La especialización guarda la categoría de vestuario en la que está especializada la modista. 
+
+![Con titulo](img/vistaCreacionModista.png "Vista de creación de modistas")
+![Con titulo](img/vistaListaModista.png "Vista de lista de modistas")
+![Con titulo](img/vistaFormModista.png "Vista de formulario de modistas")
+
 
 
 
