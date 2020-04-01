@@ -41,6 +41,15 @@ Al desplegar el menú **Escuela** podemos acceder a los modelos **Cursos**, **Al
 ![Con titulo](img/vistaListaCursos.png "Vista de lista de cursos")
 ![Con titulo](img/vistaFormCursos.png "Vista de formulario de cursos")
 
+- **Alumnos**: se utiliza para guardar los alumnos de la escuela. Tiene una relación Many2many con Cursos, es decir, un alumno puede asistir a muchos cursos y un curso puede tener muchos alumnos, de tal forma que en alumnos existe una lista Cursos en la que figura los cursos a los que el alumno está inscrito, donde se pueden agregar y quitar cursos. Lo mismo pasa en cursos, que tiene la lista alumnos en la que se puede añadir alumnos.
+Además, en alumnos se guardan los datos personales, como el nombre, la dirección, la talla y el teléfono.
+
+![Con titulo](img/vistaCreacionAlumnos.png "Vista de creación de alumnos")
+![Con titulo](img/vistaListaAlumnos.png "Vista de lista de alumnos")
+![Con titulo](img/vistaFormAlumnos.png "Vista de formulario de alumnos")
+
+
+
 
 
 
