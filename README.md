@@ -21,7 +21,7 @@ Por cada prenda se guarda su talla, la categoría a la que pertenece, el último
 - Categorías: el este modelo se guardan las distintas categorías en las que se divide el vestuario de la asociación. La característica más señalable es que una categoría puede tener una categoría padre y subcategorías.
 
 ![Con título](img/vistaCreacionCategorias.png "Vista de creación de categorías")
-![Con título](img/vistaListaCategorías.png "Vista de lista de categorías")
+![Con título](img/vistaListaCategorias.png "Vista de lista de categorías")
 ![Con título](img/vistaFormCategorias.png "Vista de formulario de categorías")
 
 
