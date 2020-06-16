@@ -62,18 +62,3 @@ El **Administrador del módulo** tiene acceso a todos los modelos del módulo, m
 
 ![Con titulo](img/vistaUsuario.png "Permisos del usuario responsable de vestuario")
 ![Con titulo](img/vistaAccesoUsuario.png "Vista general de la accesibilidad del usuario Responsable de vestuario")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
